@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  /* max-width: 800px; Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.redDot {
+  position: absolute; /* Position the background text */
+  width: 2%;
+  height: 2%;
+}
+
+.container .Verdun {
+  bottom: 42.5%; /* At the bottom. Use top:0 to append it to the top */
+  left: 58.3%;
+}
+
+.container .Vimy_Ridge {
+  bottom: 67.7%; /* At the bottom. Use top:0 to append it to the top */
+  left: 30.8%;
+}
+
+.container .Ypres {
+  bottom: 78%; /* At the bottom. Use top:0 to append it to the top */
+  left: 30.5%;
+}
+
+.container .Somme {
+  bottom: 49.5%; /* At the bottom. Use top:0 to append it to the top */
+  left: 32%;
+}
+
+.redDotChild:hover {
+  transform: scale(150%, 150%);
+}
